@@ -6,6 +6,9 @@
 .prime_text_clr {
   color: #ff0000;
 }
+.secondary_text_clr {
+  color: #070211;
+}
 .merriweather_font {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
@@ -109,4 +112,29 @@ main section {
 .midnight_party img {
   width: 40%;
   padding: 68px;
+}
+
+/* event time styling */
+.Event_time {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Event_time h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.Event_time button {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 16px 32px;
+  margin-top: 48px;
+  background: #ff0000;
+  border: none;
+  color: white;
+  border-radius: 8px;
 }
