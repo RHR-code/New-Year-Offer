@@ -179,3 +179,26 @@ main section {
 .coming_soon_third img {
   margin-top: 40px;
 }
+
+/* holiday sale styling */
+.holiday_sale {
+  text-align: center;
+  height: 987px;
+  background-image: url("images/Group\ 75.png"), url("images/Group\ 44.png"),
+    url("images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, right, bottom;
+}
+.holiday_sale h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday_sale h1 {
+  font-size: 72px;
+  font-weight: 800;
+  margin: 16px 0 28px 0;
+}
+.holiday_sale p {
+  font-size: 20px;
+  font-weight: 400;
+}
