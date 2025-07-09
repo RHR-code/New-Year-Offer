@@ -129,7 +129,8 @@ main section {
 
 /* event time styling */
 .Event_time {
-  background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+  background-image: linear-gradient(rgba(255, 0, 0, 0.05));
+
   height: 482px;
   display: flex;
   flex-direction: column;
@@ -203,10 +204,47 @@ main section {
   font-weight: 400;
 }
 
-/* gallery */
+/* gallery styling */
 .img_gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   margin-top: 48px;
+}
+
+/* newsletter styling */
+
+.newsletter {
+  height: 616px;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.05));
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.newsletter img {
+  width: 150px;
+}
+.newsletter_input {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.newsletter_input input[type="email"] {
+  height: 70px;
+  width: 400px;
+  font-size: 18px;
+  border: none;
+  border-radius: 100px 0 0 100px;
+  padding: 0 20px;
+}
+.newsletter_input input[type="submit"] {
+  height: 71px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 24px 56px;
+  border: none;
+  border-radius: 0 100px 100px 0;
+  background: #ff0000;
 }
