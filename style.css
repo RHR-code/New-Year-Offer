@@ -3,6 +3,19 @@
   padding: 0;
 }
 /* reuseable style */
+.section_sub_title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.section_title {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 16px 0 22px 0;
+}
+.section_description {
+  font-size: 20px;
+  font-weight: 300;
+}
 .prime_text_clr {
   color: #ff0000;
 }
@@ -137,4 +150,32 @@ main section {
   border: none;
   color: white;
   border-radius: 8px;
+}
+
+/* coming soon section styling */
+
+.coming_soon {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.coming_soon div {
+  flex: 1;
+}
+.coming_soon_second {
+  position: relative;
+}
+.coming_soon_second img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.coming_soon_second .img1 {
+  width: 80%;
+}
+.coming_soon_third img {
+  margin-top: 40px;
 }
